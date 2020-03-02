@@ -1,0 +1,19 @@
+{
+  "name": "node-dataset-scraper",
+  "version": "1.0.0",
+  "description": "Node utility for scraping datasets hosted on the web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteveVitali/node-dataset-scraper.git"
+  },
+  "author": "Steven J. Vitali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteveVitali/node-dataset-scraper/issues"
+  },
+  "homepage": "https://github.com/SteveVitali/node-dataset-scraper#readme"
+}
