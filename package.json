@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SteveVitali/node-dataset-scraper/issues"
   },
-  "homepage": "https://github.com/SteveVitali/node-dataset-scraper#readme"
+  "homepage": "https://github.com/SteveVitali/node-dataset-scraper#readme",
+  "devDependencies": {
+    "jsdoc": "^3.6.3"
+  }
 }
