@@ -9,9 +9,6 @@ const Scraper = require('node-dataset-scraper');
 let params = {
   // Required params
   inputPath: './examples/input.json',
-  outputPath: './examples/output.json',
-  logsPath: './examples/logs.log',
-  failurePath: './examples/failures.json',
   makeUrl: id =>  `https://www.example.com?id=${id}`,
   extractJsonFromHtml: (id, html) => ({ html }),
   
@@ -23,7 +20,10 @@ let params = {
   defaultHttpHeaders: { /* ... */ },
   cookieString: '',
   onScrapeErr: () => { /* ... */ },
-  onDone: () => { /* ... */ }
+  onDone: () => { /* ... */ },
+  outputPath: './examples/output.json',
+  logsPath: './examples/logs.log',
+  failurePath: './examples/failures.json'
 };
 
 const scraperInstace = new Scraper(params);
