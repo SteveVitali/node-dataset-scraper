@@ -18,7 +18,7 @@
   "homepage": "https://github.com/SteveVitali/node-dataset-scraper#readme",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "jsdoc": "^3.6.3"
+    "jsdoc": "^3.6.11"
   },
   "dependencies": {
     "async": "^3.2.0",
